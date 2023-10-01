@@ -1,5 +1,6 @@
 - name: debug file
-  hosts: centos
+  hosts: Cent OS
+  
   tasks:
   - name: print the text
     ansible.builtin.shell: echo Hi im from ansible server > /tmp/test.txt
