@@ -1,5 +1,5 @@
 - name: debug file
-  hosts: Cent OS
+  hosts: localhost
   
   tasks:
   - name: print the text
